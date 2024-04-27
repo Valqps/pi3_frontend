@@ -216,7 +216,7 @@
     display: none;
 }
 
-@media screen and (min-width:525px) {
+@media screen and (min-width:640px) {
     .conjunto-icones {
         font-size: 1.6em;
     }
@@ -241,7 +241,7 @@
     
 }
 
-@media screen and (min-width:1025px) {
+@media screen and (min-width:1007px) {
 
     
 
