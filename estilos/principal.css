@@ -1,7 +1,7 @@
 .conjunto-icones {
     display: flex;
     justify-content: space-around;
-    font-size: 20px;
+    font-size: 1.2em;
 }
 
 .icone {
@@ -200,3 +200,129 @@
     margin-left: 10%;
 }
 
+.menu-desktop-itens {
+    display: none;
+}
+
+.sobre-mim-cabecalho-desktop {
+    display: none;
+}
+
+.passo-container-texto.mobile{
+    display: block;
+}
+
+.passo-container-texto.desktop{
+    display: none;
+}
+
+@media screen and (min-width:525px) {
+    .conjunto-icones {
+        font-size: 1.6em;
+    }
+
+    .icone {
+        margin: 0 .2em;
+    }
+
+    .sobre-mim-cabecalho-mobile h1{
+        font-size: 3em;
+    }
+
+    .sobre-mim-cabecalho-mobile strong{
+        font-size: 1.8em;
+    }
+
+    .icones-footer {
+        top: 80%;
+        width: 50%;
+        margin: 0 25%;
+    }
+    
+}
+
+@media screen and (min-width:1025px) {
+
+    
+
+    .menu-desktop-itens {
+        display: flex;
+        justify-content: space-around;
+        width: 50vw;
+        margin: 1% 5%;
+    }
+
+    .menu-desktop-itens li{
+        list-style: none;
+    }
+
+    .menu-desktop-itens a{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 400;
+        color: var(--cor-da-fonte);
+        
+    }
+
+    .menu-desktop-itens a:hover {
+        color: var(--cor-destaque);
+        text-shadow: 0 0 10px var(--cor-da-fonte-secundaria);
+        border-bottom: 1px solid var(--cor-destaque);
+
+    }
+
+    .sobre-mim-cabecalho-mobile {
+        display: none;
+    }
+
+    .sobre-mim-cabecalho-desktop {
+        display: block;
+    }
+
+    .sobre-mim-cabecalho-desktop h1{
+        font-size: 4em;
+    }
+
+    .sobre-mim-cabecalho-desktop strong{
+        font-size: 2.3em;
+    }
+
+    .informacoes-sobre-mim {
+        display: flex;
+    }
+
+    .informacoes-metade {
+        width: 50%;
+        padding: 0 5%;
+    }
+
+    .plano-itens {
+        display: flex;
+    }
+
+    .plano-item {
+        margin: 2%;
+    }
+
+    .passo-container-texto.mobile{
+        display: none;
+    }
+
+    .passo-container-texto.desktop{
+        display: block;
+    }
+
+    .comprar-passo-container {
+        margin: 5%;
+        width: 30%;
+        max-width: 500px;
+        flex-direction: column;
+    }
+    .alinhamento-direita {
+        text-align: left;
+    }
+
+    .icones-footer {
+        font-size: 2em;
+    }
+}

@@ -22,10 +22,7 @@
                         <img class="logo-menu" src="img/PNG-LOGO-CAMILA-PRADO-CINZA (1).png">
                         <i class="fa-solid fa-xmark icone-fechar" id="icone-fechar-menu"></i>
                     </div>
-                    <ul>
-                        <li class="menu-item" onclick="fechaMenu()">
-                            <a href="#home" ><i class="fa-solid fa-right-to-bracket item-menu"></i>Entrar</a>
-                        </li>
+                    <ul>          
                         <li class="menu-item" onclick="fechaMenu()">
                             <a href="#sobre-mim" ><i class="fa-solid fa-address-card item-menu"></i>Sobre mim</a>
                         </li>
@@ -39,7 +36,7 @@
                             <a href="#depoimentos" ><i class="fa-solid fa-quote-left item-menu"></i>Depoimentos</a>
                         </li>
                         <li class="menu-item" onclick="fechaMenu()">
-                            <a href="#contato" ><i class="fa-solid fa-envelope item-menu"></i>Contato</a>
+                            <a href="#home" ><i class="fa-solid fa-right-to-bracket item-menu"></i>Entrar</a>
                         </li>
                     </ul>
                 </div>
@@ -49,6 +46,15 @@
             </div>
             <div class="container-logoprincipal" id="home">
                 <img class="logoprincipal" src="img\PNG-LOGO-CAMILA-PRADO-BRANCO.png" alt="Logo escrito Camila Prado, personal trainer, contendo silhueta de uma mulher praticando exercícios">
+                <div class="menu-desktop">
+                    <ul class="menu-desktop-itens">
+                        <li><a href="#sobre-mim">Sobre mim</a></li>
+                        <li><a href="#planos">Planos</a></li>
+                        <li><a href="#como-comprar">Como comprar</a></li>
+                        <li><a href="#depoimentos">Depoimentos</a></li>
+                        <li><a href="#">Entrar</a></li>
+                    </ul>
+                </div>
                 <div class="conjunto-icones">
                     <a href="mailto:nome@gmail.com" target="_blank"><i class="icone fa-solid fa-at"></i></a>
                     <a href="https://wa.me/5511999999999" target="_blank"><i class="icone fa-brands fa-whatsapp"></i></a>
@@ -65,15 +71,28 @@
         </header>
     </section>
     <section class="centralizado secao-tipo1" id="sobre-mim">
+        <div class="sobre-mim-cabecalho-mobile">
         <h1>Camila Prado</h1>
         <strong>A sua nova personal trainer</strong><br>
-        <img class="figura" src="img\FotoCamilaPrado.png" alt="foto da Camila Prado, uma mulher morena, cabelos lisos um pouco abaixo da altura do ombro, vestindo uma blusa azul-piscina">
-        <p class="texto-sobre-mim">Tenho mais de 15 anos de experiência como educadora física. Minha missão é mostrar que ter resultado não precisa ser um processo chato, monótono e de longo prazo. É possível ter prazer se exercitando e conseguir alcançar o corpo desejado com um leque de aulas a sua escolha.</p>
-        <a class="botao botao-tipo2" href="https://www.linkedin.com/in/camila-prado-a5b54b244/?originalSubdomain=br" target="_blank">SAIBA MAIS</a>
+        </div>
+        <div class="informacoes-sobre-mim">
+            <div class="informacoes-metade">
+                <img class="figura" src="img\FotoCamilaPrado.png" alt="foto da Camila Prado, uma mulher morena, cabelos lisos um pouco abaixo da altura do ombro, vestindo uma blusa azul-piscina">
+            </div>
+            <div class="informacoes-metade">
+                <div class="sobre-mim-cabecalho-desktop">
+                <h1>Camila Prado</h1>
+                <strong>Sua nova personal trainer</strong><br>
+                </div>
+                <p class="texto-sobre-mim">Tenho mais de 15 anos de experiência como educadora física. Minha missão é mostrar que ter resultado não precisa ser um processo chato, monótono e de longo prazo. É possível ter prazer se exercitando e conseguir alcançar o corpo desejado com um leque de aulas a sua escolha.</p>
+                <a class="botao botao-tipo2" href="https://www.linkedin.com/in/camila-prado-a5b54b244/?originalSubdomain=br" target="_blank">SAIBA MAIS</a>
+            </div>
+        </div>
     </section>
     <section class="secao-tipo2" id="planos">
         <h3>Escolha como quer treinar</h3>
         <h2><span>Planos</span></h2>
+        <div class="plano-itens">
         <div class="plano-item centralizado">
             <img src="img\image 8.png">
             <p class="plano-item-texto">esse é apenas um exemplo para mostrar como fica o efeito</p>
@@ -92,10 +111,12 @@
             <p><strong>Desafio 21 Dias</strong></p>
             <a class="botao botao-tipo1" href="">EU QUERO</a>
         </div>
+        </div>
     </section>
     <section class="secao-tipo3" id="como-comprar">
         <h3>Comece a treinar</h3>
         <h2><span>Como comprar?</span></h2>
+        <div class="plano-itens">
         <div class="comprar-passo-container">
             <img class="comprar-passo-figura" src="img\DESAFIO 22.png">
             <div class="passo-container-texto alinhamento-direita">
@@ -104,11 +125,15 @@
             </div>
         </div>
         <div class="comprar-passo-container">
-            <div class="passo-container-texto">
+            <div class="passo-container-texto mobile">
                 <p class="passo-titulo">Contato</p>
                 <p class="passo-conteudo">Depois do pagamento, entrarei em contato com as orientações.</p>
             </div>
             <img class="comprar-passo-figura" src="img/EVOLUÇÃO 1.png">
+            <div class="passo-container-texto desktop">
+                <p class="passo-titulo">Contato</p>
+                <p class="passo-conteudo">Depois do pagamento, entrarei em contato com as orientações.</p>
+            </div>
         </div>
         <div class="comprar-passo-container">
             <img class="comprar-passo-figura" src="img/MEUS-TREINOS 1.png">
@@ -116,6 +141,7 @@
                 <p class="passo-titulo">Comece a treinar</p>
                 <p class="passo-conteudo">Você preencherá um formulário de saúde e receberá os treinos.</p>
             </div>
+        </div>
         </div>
     </section>
     <section class="secao-tipo2" id="depoimentos">

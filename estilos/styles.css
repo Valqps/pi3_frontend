@@ -172,6 +172,7 @@ button:hover {
     z-index:5;
     width: 24%;
     min-width: 120px;
+    max-width: 200px;
     bottom: 10%;
     left: 38%;
     margin: 0;
@@ -205,6 +206,67 @@ button:hover {
     to{
         opacity: 1;
         transform: translate3d(0, 0, 0);
+    }
+}
+
+@media screen and (min-width:525px) {
+    
+
+    .container-logoprincipal {
+        width: 70vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 5vh;
+    }
+
+    .logoprincipal {
+        width: 40%;
+    }
+
+    .icone-menu {
+        font-size: 3em;
+    }
+
+    h2 span{
+        font-size: 2.5em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+        margin-bottom: 1.3em;
+    }
+
+}
+
+@media screen and (min-width:1025px) {
+    section {
+        min-height: 80vh;
+        padding: 5% 7%;
+    }
+
+    
+
+    .icone-menu-hamburguer{
+        display: none;
+    }
+
+    .container-logoprincipal {
+        width: 93vw;
+        align-items: baseline;
+    }
+
+    .logoprincipal {
+        width: 25%;
+    }
+
+    .botao-sobre-imagem {
+        padding: 0.8em 0;
+    }
+
+    .figura {
+        height: 70vh;
+        margin-top: 0;
     }
 }
 
