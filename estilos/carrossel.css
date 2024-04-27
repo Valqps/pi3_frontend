@@ -1,0 +1,110 @@
+.testimonial{
+    background: var(--cor-de-fundo) ;
+    padding: 30px 32px 30px 90px;
+    margin: 50px 20px 50px 120px;
+    border-radius: 0 100px 100px 0;
+    color: var(--cor-da-fonte);
+    position: relative;
+    border: 5px solid var(--cor-de-fundo-secundaria);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3)
+}
+.testimonial .pic{
+    width: 210px;
+    height: 210px;
+    line-height: 200px;
+    border-radius: 50%;
+    border: 2px solid var(--cor-da-fonte);
+    position: absolute;
+    top: -15px;
+    left: -120px;
+    overflow: hidden;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.testimonial .testimonial-info{
+    display: inline-block;
+    width: 35%;
+    float: left;
+    font-family: var(--fonte-destaque);
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--cor-de-fundo-secundaria);
+    text-transform: uppercase;
+    padding: 28px 25px;
+    margin: 10px 0 0 0;
+    border-right: 1px solid var(--cor-da-fonte);
+}
+.testimonial .testimonial-info small{
+    display: block;
+    margin-top: 5px;
+    text-transform: capitalize;
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+}
+.testimonial .description{
+    display: inline-block;
+    width: 65%;
+    font-family: var(--fonte-principal);
+    color: var(--cor-da-fonte);
+    margin-bottom: 0;
+    padding: 28px 0 28px 28px;
+    position: relative;
+}
+.testimonial .description:before{
+    content: "\f10d";
+    font-family: fontawesome;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    font-size: 20px;
+    color: var(--cor-de-fundo-secundaria);
+}
+.testimonial .description:after{
+    content: "\f10e";
+    font-family: fontawesome;
+    font-size: 20px;
+    color: var(--cor-de-fundo-secundaria);
+    position: absolute;
+    bottom: 5px;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls .owl-page span{
+    width: 25px !important;
+    height: 7px !important;
+    background: var(--cor-de-fundo-secundaria) !important;
+    box-sizing: content-box;
+}
+.owl-theme .owl-controls .owl-page span{
+    border: 4px solid transparent;
+    background: var(--cor-de-fundo-secundaria) !important;
+}
+@media only screen and (max-width: 767px){
+    .testimonial{
+        border-radius: 40px;
+        margin: 90px 15px 0;
+        padding: 100px 40px 30px 40px;
+    }
+    .testimonial .pic{
+        position: absolute;
+        top: -85px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .testimonial .testimonial-info{
+        width: 100%;
+        float: none;
+        border-right: none;
+        text-align: center;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    }
+    .testimonial .description{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 480px){
+    .testimonial{ padding: 100px 30px 30px; }
+}

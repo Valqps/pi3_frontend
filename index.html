@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camila Prado</title>
+    <link rel="stylesheet" href="estilos/reset.css">
+    <link rel="stylesheet" href="estilos/styles.css">
+    <link rel="stylesheet" href="estilos/principal.css">
+    <link rel="stylesheet" href="estilos/carrossel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+</head>
+<body>
+    <section class="secao-sem-borda">
+        <header class="cabecalho">
+            <div class="fundo-menu" id="fundo-menu">
+                <div class="janela-menu">
+                    <div class="menu-parte-superior">
+                        <img class="logo-menu" src="img/PNG-LOGO-CAMILA-PRADO-CINZA (1).png">
+                        <i class="fa-solid fa-xmark icone-fechar" id="icone-fechar-menu"></i>
+                    </div>
+                    <ul>
+                        <li class="menu-item" onclick="fechaMenu()">
+                            <a href="#home" ><i class="fa-solid fa-right-to-bracket item-menu"></i>Entrar</a>
+                        </li>
+                        <li class="menu-item" onclick="fechaMenu()">
+                            <a href="#sobre-mim" ><i class="fa-solid fa-address-card item-menu"></i>Sobre mim</a>
+                        </li>
+                        <li class="menu-item" onclick="fechaMenu()">
+                            <a href="#planos" ><i class="fa-solid fa-dumbbell item-menu"></i>Planos</a>
+                        </li>
+                        <li class="menu-item" onclick="fechaMenu()">
+                            <a href="#como-comprar" ><i class="fa-solid fa-question item-menu"></i>Como comprar</a>
+                        </li>
+                        <li class="menu-item" onclick="fechaMenu()">
+                            <a href="#depoimentos" ><i class="fa-solid fa-quote-left item-menu"></i>Depoimentos</a>
+                        </li>
+                        <li class="menu-item" onclick="fechaMenu()">
+                            <a href="#contato" ><i class="fa-solid fa-envelope item-menu"></i>Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container-imagem-full">
+                <img class="imagem-full imagem-aproximacao" src="img\desafioSecaBarriga2.jpg">
+            </div>
+            <div class="container-logoprincipal" id="home">
+                <img class="logoprincipal" src="img\PNG-LOGO-CAMILA-PRADO-BRANCO.png" alt="Logo escrito Camila Prado, personal trainer, contendo silhueta de uma mulher praticando exercícios">
+                <div class="conjunto-icones">
+                    <a href="mailto:nome@gmail.com" target="_blank"><i class="icone fa-solid fa-at"></i></a>
+                    <a href="https://wa.me/5511999999999" target="_blank"><i class="icone fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/sra.camilaprado?igsh=bnRrem0yYXFsNWRk" target="_blank"><i class="icone fa-brands fa-instagram"></i></a>
+                </div>
+            </div> 
+            <button onclick="abreMenu()" class="icone-menu-hamburguer" id="icone-menu-hamburguer">
+                <i class="fa-solid fa-bars icone-menu"></i>
+            </button>
+            
+            <div>
+                <a class="botao botao-tipo1 botao-sobre-imagem" href="#planos">SAIBA MAIS</a>      
+            </div>  
+        </header>
+    </section>
+    <section class="centralizado secao-tipo1" id="sobre-mim">
+        <h1>Camila Prado</h1>
+        <strong>A sua nova personal trainer</strong><br>
+        <img class="figura" src="img\FotoCamilaPrado.png" alt="foto da Camila Prado, uma mulher morena, cabelos lisos um pouco abaixo da altura do ombro, vestindo uma blusa azul-piscina">
+        <p class="texto-sobre-mim">Tenho mais de 15 anos de experiência como educadora física. Minha missão é mostrar que ter resultado não precisa ser um processo chato, monótono e de longo prazo. É possível ter prazer se exercitando e conseguir alcançar o corpo desejado com um leque de aulas a sua escolha.</p>
+        <a class="botao botao-tipo2" href="https://www.linkedin.com/in/camila-prado-a5b54b244/?originalSubdomain=br" target="_blank">SAIBA MAIS</a>
+    </section>
+    <section class="secao-tipo2" id="planos">
+        <h3>Escolha como quer treinar</h3>
+        <h2><span>Planos</span></h2>
+        <div class="plano-item centralizado">
+            <img src="img\image 8.png">
+            <p class="plano-item-texto">esse é apenas um exemplo para mostrar como fica o efeito</p>
+            <p><strong>Consultoria Fitness</strong></p>
+            <a class="botao botao-tipo1" href="">EU QUERO</a>
+        </div>
+        <div class="plano-item centralizado">
+            <img src="img/fotoExercicio.jpg">
+            <p class="plano-item-texto">esse é apenas um exemplo para mostrar como fica o efeito</p>
+            <p><strong>Personal Trainer</strong></p>
+            <a class="botao botao-tipo1" href="">EU QUERO</a>
+        </div>
+        <div class="plano-item centralizado">
+            <img src="img/treinoGluteo.jpg">
+            <p class="plano-item-texto">esse é apenas um exemplo para mostrar como fica o efeito</p>
+            <p><strong>Desafio 21 Dias</strong></p>
+            <a class="botao botao-tipo1" href="">EU QUERO</a>
+        </div>
+    </section>
+    <section class="secao-tipo3" id="como-comprar">
+        <h3>Comece a treinar</h3>
+        <h2><span>Como comprar?</span></h2>
+        <div class="comprar-passo-container">
+            <img class="comprar-passo-figura" src="img\DESAFIO 22.png">
+            <div class="passo-container-texto alinhamento-direita">
+                <p class="passo-titulo">Escolha o seu plano</p>
+                <p class="passo-conteudo">Siga o passo a passo e realize o pagamento.</p>
+            </div>
+        </div>
+        <div class="comprar-passo-container">
+            <div class="passo-container-texto">
+                <p class="passo-titulo">Contato</p>
+                <p class="passo-conteudo">Depois do pagamento, entrarei em contato com as orientações.</p>
+            </div>
+            <img class="comprar-passo-figura" src="img/EVOLUÇÃO 1.png">
+        </div>
+        <div class="comprar-passo-container">
+            <img class="comprar-passo-figura" src="img/MEUS-TREINOS 1.png">
+            <div class="passo-container-texto alinhamento-direita">
+                <p class="passo-titulo">Comece a treinar</p>
+                <p class="passo-conteudo">Você preencherá um formulário de saúde e receberá os treinos.</p>
+            </div>
+        </div>
+    </section>
+    <section class="secao-tipo2" id="depoimentos">
+        <h3>Pessoas que mudaram suas vidas</h3>
+        <h2><span>Depoimentos</span></h2>
+        <div class="carrossel-container">
+            <div class="row">
+                <div class="col-md-offset-2 col-md-8">
+                    <div id="testimonial-slider" class="owl-carousel">
+                        <div class="testimonial">
+                            <div class="pic">
+                                <img src="img/treinoGluteo.jpg" alt="" class="img-responsive">
+                            </div>
+                            <h3 class="testimonial-info">
+                                krystal
+                                <small>Web Developer</small>
+                            </h3>
+                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis.</p>
+                        </div>
+        
+                        <div class="testimonial">
+                            <div class="pic">
+                                <img src="img/desafioSecaBarriga2.jpg" alt="" class="img-responsive">
+                            </div>
+                            <h3 class="testimonial-info">
+                                Diana
+                                <small>Web Designer</small>
+                            </h3>
+                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contato">
+        <div class="container-rodape">
+            <img class="imagem-full" src="img/APLICAÇÃO-DE-LOGO 2.png">
+            <div class="conjunto-icones icones-footer">
+                    <a href="mailto:nome@gmail.com" target="_blank"><i class="icone fa-solid fa-at"></i></a>
+                    <a href="https://wa.me/5511999999999" target="_blank"><i class="icone fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/sra.camilaprado?igsh=bnRrem0yYXFsNWRk" target="_blank"><i class="icone fa-brands fa-instagram"></i></a>
+                    <a href="https://youtube.com/@CamilaPradoPereira?si=Ir4T6pSwPGjx3eF3" target="_blank"><i class="icone fa-brands fa-youtube"></i></a>
+            </div>
+            <p class="texto-rodape">Copyright 2024(c) Camila Prado / Imagens FreePik KamranAydinov Nensuria</p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
